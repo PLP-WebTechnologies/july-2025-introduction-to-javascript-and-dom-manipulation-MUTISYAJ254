@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JavaScript Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="title">JavaScript Assignment (Parts 1–4)</h1>
+    <p id="intro">This text will be updated by JavaScript.</p>
+  </header>
+
+  <main class="container">
+    <!-- ===== PART 2 & 4: Functions + DOM (greet) ===== -->
+    <section class="card">
+      <h2>Greet a User</h2>
+      <label for="nameInput">Your name:</label>
+      <input id="nameInput" type="text" placeholder="Enter your name" />
+      <button id="btnGreet">Greet</button>
+      <p id="greetOutput" class="muted">Click “Greet” to see a message here.</p>
+    </section>
+
+    <!-- ===== PART 3 & 4: Loops + DOM (render list) ===== -->
+    <section class="card">
+      <h2>Fruit List (Rendered via DOM)</h2>
+      <ul id="list"></ul>
+    </section>
+
+    <!-- ===== PART 4: More DOM interactions ===== -->
+    <section class="card">
+      <h2>More Interactions</h2>
+      <div class="row">
+        <button id="btnAlert">Show Alert</button>
+        <button id="btnTheme">Toggle Theme</button>
+      </div>
+      <div class="row">
+        <span>Counter: <strong id="counter">0</strong></span>
+        <button id="btnInc">Increment</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 — JS Assignment Demo</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
